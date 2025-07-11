@@ -9,15 +9,23 @@ const Projects = () => {
         <ProjectCard 
         image = "https://images.klipfolio.com/website/public/7eab5172-6fe0-4304-9e9d-4750646a9791/powermetrics-dashboard_0.png"
         title="DashBoard Website" 
-        main="This is a basic dashboard website using react js" />
+        main="This is a basic dashboard website using react js" 
+        demoLink = "https://dash-board-omega-flame.vercel.app/login"
+        sourceLink="https://github.com/ankush-nagal/DashBoard"/>
+        
         <ProjectCard 
          image = "https://i.pinimg.com/736x/6e/b8/c5/6eb8c54cf4981851c812b2ac10efeafd.jpg"
         title="ShopCart" 
-        main="Basic shoping website" />
+        main="Basic shoping website"
+        demoLink="https://shop-cart-flax-psi.vercel.app/" 
+        sourceLink="https://github.com/ankush-nagal/ShopCart"/>
         <ProjectCard 
         image = "https://media2.themorningcontext.com/media/posts_images/thibault-penin-AWOl7qqsffM-unsplash.jpeg"
         title="Netflix clon" 
-        main="This is a clon of netflix login page" />
+        main="This is a clon of netflix login page"
+        demoLink=""
+        sourceLink="" />
+        
       </div>
 
     </div>
